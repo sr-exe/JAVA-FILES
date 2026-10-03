@@ -73,7 +73,6 @@ public class day20 {
 
     static int countChar(String str, char target) {
         int count = 0;
-
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == target) {
                 count++;
@@ -83,6 +82,7 @@ public class day20 {
     }
 
     static void charFrequency(String str) {
+
         for (int i = 0; i < str.length(); i++) {
             if (alreadySeen(str, i)) {
                 continue;
@@ -90,10 +90,10 @@ public class day20 {
             int frequency = countChar(str, str.charAt(i));
             System.out.println(str.charAt(i) + " > " + frequency);
         }
-
     }
 
     static boolean alreadySeen(String str, int index) {
+
         for (int i = 0; i < index; i++) {
             if (str.charAt(i) == str.charAt(index)) {
                 return true;
@@ -105,5 +105,4 @@ public class day20 {
     public static void main(String args[]) {
         charFrequency("programming");
     }
-
 }
