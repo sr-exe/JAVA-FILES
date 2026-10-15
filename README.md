@@ -173,7 +173,7 @@ Technologies are added to the project as I learn and use them. Listing a tool he
 
 Build and deploy useful applications with **Java, Spring Boot, SQL, REST APIs, and a frontend**, supported by strong fundamentals in data structures, operating systems, networking, testing, security, and debugging.
 
-
+## 🤝 Follow the Journey
 
 I'm using this repository as a record of consistent practice, mistakes, improvements, and projects. Suggestions and constructive feedback are welcome.
 
